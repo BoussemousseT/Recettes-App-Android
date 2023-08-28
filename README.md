@@ -15,32 +15,23 @@ Il utilise les notions d'algorithmique et de programmation en java mais égaleme
 ![Recettes Cuisine](https://blogger.googleusercontent.com/img/a/AVvXsEjwgEQmFUmMylM_3cSUWnkIxZS2txhur2_3oMjnaxYUovOy82lp3iK_0fMj0AirFGAAgEY07Z3X9Wa6L62zZR1-W3iSn7LFUFXcNVFSEKGubOhygp9p6UcR9qkz7jN1aGnXMEh-xDeF9G9YiWa4ji2c7dfxayspVs5anEtWJNHRiiguED40_bLA0cwn8b0 "Recettes Cuisine")
 
 
-## Règles du jeu
+## A propos de l'application
 
-> Notre planete est en peril! Une armee de martien a decide d envahir la terre. Vous etes toutefois le hero de la situation et la seule personne capable d'aneantir ces vilains.
+-L'application doit permettre aux utilisateurs de sélectionner une catégorie spécifique de recettes, comme la cuisine québécoise, française ou marocaine.
 
-1- Deplacement et tir :
-	- Pour vous deplacer vous devez utiliser les fleches : DROITE, GAUCHE, HAUT, BAS.
-	- Pour tirer vos missiles vous devez appuyer sur <<SPACE BAR>>.
+-Ces catégories seront stockées dans une base de données et récupérées lorsque nécessaire.
 
-2- But du jeu :
-	- Vous Devez tirer vos missiles sur les extraterrestres sans vous faire toucher par les missiles ennemis.
-	- Si vous vous faites toucher par un missile extraterrestre plus de 3 fois vous perdez la partie.
-	- Si le nombre d extraterrestre atteint 15, vous perdez la partie.
-	- En revanche, si vous tuez les 15 extraterrestres vous changez de niveau.
-	- Les extraterrestres <<&>> = 1000 points et les <<#>> = 1500 points
+-Chaque catégorie est représentée par un nom et une image associée.
 
-## Comment jouer
+-Lorsque l'utilisateur sélectionne une catégorie, l'application affiche une liste de recettes correspondantes à cette catégorie.
 
-- Pour jouer à Space invaders 2, téléchargez le dossier `\TP - D03` et exécutez le.
+-La liste est présentée sous forme de vignettes ou de cartes, avec le nom, une image miniature de chaque recette.
 
-- Le jeu est disponible en version française uniquement.
-
-- Le jeu se joue intégralement à la console.
+-Lorsque l'utilisateur clique sur une recette, l'application affiche les détails complets de la recette, y compris la description, les ingrédients, les étapes de préparation et les images associées.
 
 ## Crédits
 
-Dernière mise à jour le 08/27/2023
+Dernière mise à jour le 08/28/2023
 
 ------------------
 
